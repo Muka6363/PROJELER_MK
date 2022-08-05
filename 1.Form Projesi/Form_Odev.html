@@ -1,313 +1,371 @@
 <!DOCTYPE html>
 <!-- saved from url=(0052)http://127.0.0.1:5500/HTML-Lesson/5.1.form_odev.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form_Odev</title>
-  <script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/popup.js" async=""></script><script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/tat_popup.js" async=""></script><style type="text/css">@font-face {
-  font-family: 'rbicon';
-  src: url(chrome-extension://dipiagiiohfljcicegpgffpbnjmgjcnf/fonts/rbicon.woff2) format("woff2");
-  font-weight: normal;
-  font-style: normal; }
-</style></head>
+    <script
+      type="text/javascript"
+      src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/popup.js"
+      async=""
+    ></script>
+    <script
+      type="text/javascript"
+      src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/tat_popup.js"
+      async=""
+    ></script>
+    <style type="text/css">
+      @font-face {
+        font-family: "rbicon";
+        src: url(chrome-extension://dipiagiiohfljcicegpgffpbnjmgjcnf/fonts/rbicon.woff2)
+          format("woff2");
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+  </head>
   <body>
-    <form action="http://127.0.0.1:5500/HTML-Lesson/5.2.ekran_form_odev.html" method="get">
+    <form
+      action="http://127.0.0.1:5500/HTML-Lesson/5.2.ekran_form_odev.html"
+      method="get"
+    >
       <h1 style="text-align: center; border: solid black 5px">
-        INTERSECTING CODES GRUBU ÜYELİK <br>
+        INTERSECTING CODES GRUBU ÜYELİK <br />
         ÖN BAŞVURU FORMU
       </h1>
-      <hr>
+      <hr />
       <div>
         <fieldset>
           <legend><b>Kişisel Bilgileriniz</b></legend>
           <table>
-            <tbody><tr>
-              <td>Ad</td>
-              <td>
-                <input type="text" name="adınız" id="ad" placeholder="adınızı giriniz...">
-              </td>
-            </tr>
-            <tr>
-              <td>Soyad</td>
-              <td>
-                <input type="text" name="soyadınız" id="soad" placeholder="soyadınızı giriniz...">
-              </td>
-            </tr>
-            <tr>
-              <td>Yaş</td>
-              <td>
-                <input type="text" name="yasınız" id="age" placeholder="yaşınızı giriniz...">
-              </td>
-            </tr>
-            <tr>
-              <td>Telefon</td>
-              <td>
-                <input type="tel" name="telefon_no" value="+90">
-              </td>
-            </tr>
-            <tr>
-              <td>E-mail Adres</td>
-              <td>
-                <input type="email" name="maıl adresınız" id="mail" placeholder="mailinizi giriniz...">
-              </td>
-            </tr>
-            <tr>
-              <td>Fotoğraf Ekle</td>
-              <td>
-                <input type="file" name="ekledıgınız fotograf" id="foto">
-              </td>
-            </tr>
-          </tbody></table>
+            <tbody>
+              <tr>
+                <td>Ad</td>
+                <td>
+                  <input
+                    type="text"
+                    name="adınız"
+                    id="ad"
+                    placeholder="adınızı giriniz..."
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Soyad</td>
+                <td>
+                  <input
+                    type="text"
+                    name="soyadınız"
+                    id="soad"
+                    placeholder="soyadınızı giriniz..."
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Yaş</td>
+                <td>
+                  <input
+                    type="text"
+                    name="yasınız"
+                    id="age"
+                    placeholder="yaşınızı giriniz..."
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Telefon</td>
+                <td>
+                  <input type="tel" name="telefon_no" value="+90" />
+                </td>
+              </tr>
+              <tr>
+                <td>E-mail Adres</td>
+                <td>
+                  <input
+                    type="email"
+                    name="maıl adresınız"
+                    id="mail"
+                    placeholder="mailinizi giriniz..."
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Fotoğraf Ekle</td>
+                <td>
+                  <input type="file" name="ekledıgınız fotograf" id="foto" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </fieldset>
       </div>
-      <br>
+      <br />
       <div>
         <fieldset>
           <legend>
-            <b>Diğer Bilgileriniz (Burada yer alan bilgiler mesleki tecrübe ve
-              vaadleriniz ile ilgilidir)</b>
+            <b
+              >Diğer Bilgileriniz (Burada yer alan bilgiler mesleki tecrübe ve
+              vaadleriniz ile ilgilidir)</b
+            >
           </legend>
           <table>
-            <tbody><tr>
-              <td>Clarusway Cohort Dönemi</td>
-              <td>
-                <label>
-                  <input type="radio" name="donem" id="coh"> Cohort 12
-                </label>
-                <label><input type="radio" name="donem" id="coh"> Diğerleri :)
-                </label>
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td>IT Alanına Giriş Tarihi</td>
-              <td>
-                <label><input type="date" name=" gırılen tarıh" id="ısta"></label>
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Günlük Çalışma Saati</td>
-              <td>
-                <label>
-                  <input type="radio" name="saat" id=""> 0 - 3 saat</label>
-                <br>
-                <label>
-                  <input type="radio" name="saat" id=""> 3 - 5 saat</label><br>
-                <label>
-                  <input type="radio" name="saat" id=""> 5 - 8 saat</label><br>
-                <label>
-                  <input type="radio" name="saat" id=""> 8 - 10 saat</label>
-                <br>
-                <label>
-                  <input type="radio" name="saat" id="saat"> Benım Tüm Hayatım
-                  Ders Çalışmak :)</label>
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Bootcamp Sonundaki Plan</td>
-              <td>
-                <label>
-                  <input type="checkbox" name="plan" id=""> Plan mı? Ne
-                  planı??? :)
-                </label>
-                <br>
-                <label>
-                  <input type="checkbox" name="plan" id=""> Bakarız yaaa
-                  sıkıntı yok :)
-                </label>
-                <br>
-                <label>
-                  <input type="checkbox" name="plan" id=""> Hacı abi size
-                  takılırım ben yaa :))
-                </label>
-                <br>
-                <label>
-                  <input type="checkbox" name="plan" id=""> Clarusway i ele
-                  geçirip ilk olarak kahoot u hackleyecem :))
-                </label>
-                <br>
-                <label>
-                  <input type="checkbox" name="plan" id=""> Gruba girersem
-                  kurs bitmeden işe girerim, rahat olun siz :)
-                </label>
-                <br>
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Kariyerinizde Zirve Hedef</td>
-              <td>
-                <label>
-                  <input type="radio" name="karıyer"> Elmayı severim. Apple ı
-                  gözüme kestirdim sayılır :))</label>
-                <br>
-                <label>
-                  <input type="radio" name="karıyer"> Pengueni daha çok
-                  severim. En iyisi şu Linux.
-                </label>
-                <br>
-                <label>
-                  <input type="radio" name="karıyer"> Aslında teslaydı,
-                  whatsappdı, twitterdı... hepsini satın alıp şu Elon Musk'ı
-                  kovmak vardı ama o kadar parayı nerden bulayım :))</label>
-                <br>
-                <label>
-                  <input type="radio" name="karıyer"> Tek hedefim Clarusway in
-                  CEOsu olmak:)) Olduğum gün tüm öğrencilere döner+ayran
-                  dağıtacam :))</label>
-                <br>
-                <label>
-                  <input type="radio" name="karıyer"> Ya bırakın bunları,
-                  reklem kokan laflar bunlar :)) Öyle hedefim falan yok artık
-                  nere nasip olursa aga :)) nefes alabileyim yeter :))</label>
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td>En Başarılı Olduğunuz Ders-Alan</td>
-              <td>
-                <label for="ders"></label>
-                <select name="" id="ders" size="5">
-                  <option value="Python">"Python" candır aga :))</option>
-                  <option value="HTML">
-                    "HTML" de guzel ama sıyah-beyaz :))
-                  </option>
-                  <option value="CSS">"CSS" hayatı renklendırır:))</option>
-                  <option value="Java Script">
-                    "Java Script" az biraz biliyorum ama o da güzel gibi:))
-                  </option>
-                  <option value="C++">
-                    " C++" diye de bisey vardı heralde ama pek bilmiyom :))
-                  </option>
-                  <option value="Beden Eğitimi">
-                    "Beden Eğitimi" dersı aga en cok onu severim. Maç yapardık
-                    ne güzeldi:))
-                  </option>
-                </select>
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Sizi Neden Gruba Alalım</td>
-              <td>
-                <label>
-                  <input type="checkbox" name="sebep"> Ne yapim grupsuz mu
-                  kalim :))
-                </label>
-                <br>
-                <label>
-                  <input type="checkbox" name="sebep"> Saymakla bitiremem :))
-                </label>
-                <br>
-                <label>
-                  <input type="checkbox" name="sebep"> Herhangi bir sebebim
-                  yok. Valla almazsanız Mark M. hocaya şikayet ederim:))
-                </label>
-                <br>
-                <label>
-                  <input type="checkbox" name="sebep"> Birgün herkesin yolu
-                  burada will ıntersect olacak :)). sımdıden vazıyet alayım
-                  diyorum :)
-                </label>
-                <br>
-                <label>
-                  <input type="checkbox" name="plan" id=""> Hocam buranın type
-                  ını checkbox olarak ayarladıysan ben en iyisi hepsini seçim :)
-                  şansım artsın :))
-                </label>
-              </td>
-            </tr>
-          </tbody></table>
+            <tbody>
+              <tr>
+                <td>Clarusway Cohort Dönemi</td>
+                <td>
+                  <label>
+                    <input type="radio" name="donem" id="coh" /> Cohort 12
+                  </label>
+                  <label
+                    ><input type="radio" name="donem" id="coh" /> Diğerleri :)
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td>IT Alanına Giriş Tarihi</td>
+                <td>
+                  <label
+                    ><input type="date" name=" gırılen tarıh" id="ısta"
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Günlük Çalışma Saati</td>
+                <td>
+                  <label>
+                    <input type="radio" name="saat" id="" /> 0 - 3 saat</label
+                  >
+                  <br />
+                  <label>
+                    <input type="radio" name="saat" id="" /> 3 - 5 saat</label
+                  ><br />
+                  <label>
+                    <input type="radio" name="saat" id="" /> 5 - 8 saat</label
+                  ><br />
+                  <label>
+                    <input type="radio" name="saat" id="" /> 8 - 10 saat</label
+                  >
+                  <br />
+                  <label>
+                    <input type="radio" name="saat" id="saat" /> Benım Tüm
+                    Hayatım Ders Çalışmak :)</label
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Bootcamp Sonundaki Plan</td>
+                <td>
+                  <label>
+                    <input type="checkbox" name="plan" id="" /> Plan mı? Ne
+                    planı??? :)
+                  </label>
+                  <br />
+                  <label>
+                    <input type="checkbox" name="plan" id="" /> Bakarız yaaa
+                    sıkıntı yok :)
+                  </label>
+                  <br />
+                  <label>
+                    <input type="checkbox" name="plan" id="" /> Hacı abi size
+                    takılırım ben yaa :))
+                  </label>
+                  <br />
+                  <label>
+                    <input type="checkbox" name="plan" id="" /> Clarusway i ele
+                    geçirip ilk olarak kahoot u hackleyecem :))
+                  </label>
+                  <br />
+                  <label>
+                    <input type="checkbox" name="plan" id="" /> Gruba girersem
+                    kurs bitmeden işe girerim, rahat olun siz :)
+                  </label>
+                  <br />
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Kariyerinizde Zirve Hedef</td>
+                <td>
+                  <label>
+                    <input type="radio" name="karıyer" /> Elmayı severim. Apple
+                    ı gözüme kestirdim sayılır :))</label
+                  >
+                  <br />
+                  <label>
+                    <input type="radio" name="karıyer" /> Pengueni daha çok
+                    severim. En iyisi şu Linux.
+                  </label>
+                  <br />
+                  <label>
+                    <input type="radio" name="karıyer" /> Aslında teslaydı,
+                    whatsappdı, twitterdı... hepsini satın alıp şu Elon Musk'ı
+                    kovmak vardı ama o kadar parayı nerden bulayım :))</label
+                  >
+                  <br />
+                  <label>
+                    <input type="radio" name="karıyer" /> Tek hedefim Clarusway
+                    in CEOsu olmak:)) Olduğum gün tüm öğrencilere döner+ayran
+                    dağıtacam :))</label
+                  >
+                  <br />
+                  <label>
+                    <input type="radio" name="karıyer" /> Ya bırakın bunları,
+                    reklem kokan laflar bunlar :)) Öyle hedefim falan yok artık
+                    nere nasip olursa aga :)) nefes alabileyim yeter :))</label
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td>En Başarılı Olduğunuz Ders-Alan</td>
+                <td>
+                  <label for="ders"></label>
+                  <select name="" id="ders" size="5">
+                    <option value="Python">"Python" candır aga :))</option>
+                    <option value="HTML">
+                      "HTML" de guzel ama sıyah-beyaz :))
+                    </option>
+                    <option value="CSS">"CSS" hayatı renklendırır:))</option>
+                    <option value="Java Script">
+                      "Java Script" az biraz biliyorum ama o da güzel gibi:))
+                    </option>
+                    <option value="C++">
+                      " C++" diye de bisey vardı heralde ama pek bilmiyom :))
+                    </option>
+                    <option value="Beden Eğitimi">
+                      "Beden Eğitimi" dersı aga en cok onu severim. Maç yapardık
+                      ne güzeldi:))
+                    </option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sizi Neden Gruba Alalım</td>
+                <td>
+                  <label>
+                    <input type="checkbox" name="sebep" /> Ne yapim grupsuz mu
+                    kalim :))
+                  </label>
+                  <br />
+                  <label>
+                    <input type="checkbox" name="sebep" /> Saymakla bitiremem
+                    :))
+                  </label>
+                  <br />
+                  <label>
+                    <input type="checkbox" name="sebep" /> Herhangi bir sebebim
+                    yok. Valla almazsanız Mark M. hocaya şikayet ederim:))
+                  </label>
+                  <br />
+                  <label>
+                    <input type="checkbox" name="sebep" /> Birgün herkesin yolu
+                    burada will ıntersect olacak :)). sımdıden vazıyet alayım
+                    diyorum :)
+                  </label>
+                  <br />
+                  <label>
+                    <input type="checkbox" name="plan" id="" /> Hocam buranın
+                    type ını checkbox olarak ayarladıysan ben en iyisi hepsini
+                    seçim :) şansım artsın :))
+                  </label>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </fieldset>
       </div>
-      <br>
+      <br />
       <div>
         <fieldset>
           <legend><b>INTERSECTING CODES GRUP YÖNETMELİĞİ</b></legend>
@@ -322,63 +380,81 @@
           ...
         </fieldset>
       </div>
-      <br>
+      <br />
       <fieldset>
         <legend><b>Sözleşme Onay</b></legend>
-        <input type="checkbox" name="onay kutucugu" id="" required="">Yukarıda
+        <input type="checkbox" name="onay kutucugu" id="" required="" />Yukarıda
         belirtmis oldugum bilgilerin dogru olduğunu, gruba kabul edilmem
         halinde, grup yonetmeliği basta olmak uzere tüm kurallara uyacağımı
         taahhüt ederim.
-        <br>
-        <br>(Lutfen işaretleme yapmadan yönetmeliğin tamamını okuyunuz) <br>
+        <br />
+        <br />(Lutfen işaretleme yapmadan yönetmeliğin tamamını okuyunuz) <br />
         <p>
           Yönetmeliği okumak için lütfen
-          <input type="button" value="Grup Yönetmeliği"> tıklayınız...
+          <input type="button" value="Grup Yönetmeliği" /> tıklayınız...
         </p>
 
-        <br>
-        <br>
-        <input type="submit" value="Formu Gonder">
-        <input type="reset" value="Formu Temizle">
+        <br />
+        <br />
+        <input type="submit" value="Formu Gonder" />
+        <input type="reset" value="Formu Temizle" />
       </fieldset>
     </form>
-  <!-- Code injected by live-server -->
-<script type="text/javascript">
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+    <!-- Code injected by live-server -->
+    <script type="text/javascript">
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
+    </script>
 
-<div id="rememberry__extension__root" style="all: unset;"></div></body><template id="transover-popup-template"></template><template id="transover-tat-popup-template"></template></html>
+    <div id="rememberry__extension__root" style="all: unset"></div>
+  </body>
+  <template id="transover-popup-template"></template
+  ><template id="transover-tat-popup-template"></template>
+</html>
