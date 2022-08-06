@@ -1,0 +1,43 @@
+body {
+  background-image: url("./3.proje-image.jpg");
+  color: white;
+}
+#container {
+  background-color: rgba(56, 60, 63, 0.511);
+  margin: 15px;
+}
+#title {
+  font-weight: 50px bold;
+  padding: 1px 30% 15px 30%;
+}
+#description {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 1px;
+  margin: 2px;
+}
+span {
+  text-transform: capitalize;
+  color: red;
+}
+#survey-form {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(10, 11, 11, 0.748);
+  padding: 20px;
+}
+.box {
+  line-height: 2;
+}
+.box1 {
+  padding-top: 10px;
+}
+.box2 {
+}
+button {
+  background-color: rgb(241, 6, 6);
+  color: white;
+  border-radius: 20px;
+  width: 100px;
+  border: none;
+  padding: 5px;
+}

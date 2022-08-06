@@ -7,9 +7,9 @@
     <title>forum_proje_2</title>
     <link rel="stylesheet" href="forum_proje_2.css" />
   </head>
-  <body>
+  <body><div class="form">
     <form action="http://www.clarusway.com" method="get">
-      <div class="form">
+      
         <h1 class="h1">Clarusway Survey Form</h1>
         <p>Thank you for taking the time to help us improve the platform</p>
         <label for="name">Name</label> <br />
@@ -51,21 +51,20 @@
         </select>
         <br />
         <div class="div3">
-          <p>Would you recommend Clarusway to a friend?</p>
-          <label>
-            <input type="radio" name="classs" id="" required /> Definitely, Yes
-          </label>
+          <p class="par">Would you recommend Clarusway to a friend?</p>
+          <label
+            ><input type="radio" name="classs" required /> Definitely,
+            Yes</label
+          >
           <br />
-          <label> <input type="radio" name="classs" id="" /> Maybe </label>
+          <label> <input type="radio" name="classs" /> Maybe </label>
           <br />
-          <label> <input type="radio" name="classs" id="" /> Not sure </label>
+          <label> <input type="radio" name="classs" /> Not sure </label>
           <br />
-          <label>
-            <input type="radio" name="classs" id="" /> Definitely, No
-          </label>
+          <label> <input type="radio" name="classs" /> Definitely, No </label>
         </div>
         <p>What is your favorite feature of Clarusway?</p>
-        <select class="selekt2" name="idem" id="">
+        <select class="selekt2" name="idem">
           <option disabled selected value>Select an option</option>
           <option value="courses">courses</option>
           <option value="Projects">Projects</option>
@@ -93,9 +92,10 @@
             placeholder="Enter your comment here...Thanxs for your commets...."
           ></textarea>
         </div>
-        <input type="button" value="Submit" />
+        <input type="submit" value="Submit" />
         <input type="reset" value="Clear" />
       </div>
     </form>
+  </div>
   </body>
 </html>
