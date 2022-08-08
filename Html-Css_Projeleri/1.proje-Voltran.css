@@ -94,7 +94,7 @@ article p::first-line {
   position: relative;
 }
 .images li:hover {
-  top: -4px;
+  top: 50px;
 }
 .images li img {
   /* max-width: 100%; */

@@ -86,3 +86,23 @@ select {
   margin: auto;
   text-align: center;
 }
+
+/*DERSTEN NOTLAR... 
+goole fonts sıtesınde koplama yaparken lınk ın yerıne yanındakını y-tıklayınız. sonra script ıcıne yazılannı @ımport u alıp dırekte css e yapıstırınız.
+
+select te content type ıcın, sılık bır ve secılemeyecek bır yazı yazmak ıcın ;disabled veya hidden attiributelerini kullanarak yazdırabiliriz 
+ cursor :poınter buton ıcın kullan
+
+ margın: auto ıslem gormesı ıcın width vermek zorundayız.
+
+ herhangı bır fontu ındırebılırız google fonts tan. masaustunde bır dosyaya kaydettık. vscode a getırdık aynı resımler gıbı.lokalımıze ındırdıgımız bu fontu kullanmak ıcın; 
+ @font-face{
+ font-family : (bu ısmı kendımız belırlıyoruz)
+ src: url(resım secer gıbı ./fonts...)}
+ bu sekılde tanımladıktan sonra hangısıne uyarlamak ıstersek 
+ oraya gırıp;
+font-family: tanımladıgımız ısmı yazarız.
+
+
+
+*/
