@@ -34,7 +34,7 @@ body {
 }
 .lili li:hover {
   background-color: rgba(0, 255, 255, 0.397);
-  border: 2px solid white;
+  border: 2px solid rgb(237, 157, 10);
   top: 5px;
   border-radius: 30px;
 }
@@ -66,10 +66,11 @@ body {
 }
 .ana_yazı a {
   color: rgb(210, 136, 32);
+  text-decoration: none;
 }
 .ana_yazı a:hover {
   background-color: rgba(0, 255, 255, 0.397);
-  border: 2px solid white;
+  border: 2px solid rgb(237, 157, 10);
   border-radius: 30px;
   padding: 5px;
 }
@@ -80,5 +81,9 @@ marquee img {
   width: 150px;
   padding: 15px;
   margin-right: 45px;
-  border: 3px solid white;
+  border: 2px solid rgb(237, 157, 10);
+}
+marquee img:hover {
+  background-color: rgba(0, 255, 255, 0.397);
+  top: -10px;
 }

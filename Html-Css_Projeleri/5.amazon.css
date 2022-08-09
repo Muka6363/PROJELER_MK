@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  color: white;
+  height: 80px;
+}
+#menu {
+  display: flex;
+  margin-right: 40px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+#logo img {
+  width: 112px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#world {
+  width: 20px;
+}
+.bolum1 {
+  background-image: url(./images/En_ust.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 565px;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+.icerik1 {
+  width: 550px;
+  margin-right: 50px;
+}
