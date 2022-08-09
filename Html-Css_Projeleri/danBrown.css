@@ -20,22 +20,26 @@ body {
   width: 100%;
   height: 100%;
 }
-#resim1 {
+#resim1,
+#resim1 img {
   width: 100%;
   margin: auto;
 }
 .lili li {
-  display: inline;
+  display: inline-block;
   background-color: rgba(0, 255, 255, 0.03);
-  width: 100%;
-  margin: 3%;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
+  list-style-type: none;
+  margin: 0px 30px;
+}
+.lili {
+  text-align: center;
+  margin-bottom: 60px;
 }
 .lili li:hover {
   background-color: rgba(0, 255, 255, 0.397);
   border: 2px solid rgb(237, 157, 10);
-  top: 5px;
   border-radius: 30px;
 }
 .lili li a {
@@ -47,17 +51,17 @@ body {
 }
 .merkez_acıklama img {
   float: left;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   height: 350px;
-  padding: 30px 20px 0px 0px;
+  margin: 10px 20px 0px 0px;
 }
 .ana_yazı {
-  margin-top: 60px;
+  /* margin-top: 60px; */
   font-size: 15px;
   padding-right: 15px;
   text-align: justify;
   text-indent: 30px;
-  height: 200px;
 }
 .ana_yazı h1 {
   text-align: left;
@@ -85,5 +89,8 @@ marquee img {
 }
 marquee img:hover {
   background-color: rgba(0, 255, 255, 0.397);
-  top: -10px;
+  width: 160px;
+}
+.img2 img {
+  width: 100%;
 }
