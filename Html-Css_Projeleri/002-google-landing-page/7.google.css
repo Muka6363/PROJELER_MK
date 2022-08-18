@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: aqua; */
+}
+.navbar a {
+  text-decoration: none;
+}
+.left {
+  /* width: 50%; */
+  float: left;
+  
+}
+.right {
+  margin-right: 0
+  /* width: 50%; */
+  float: right;
+}
+.right img {
+  width: 5%;
+}
+.right button {
+  background-color: rgba(79, 152, 221, 0.637);
+  padding: 2%;
+  border: none;
+}
+.rightspan button,
+img,
+a {
+  /* padding-right: 10%; */
+  float: right;
+}
