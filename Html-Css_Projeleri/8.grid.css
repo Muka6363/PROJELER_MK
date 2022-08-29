@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0.3rem; */
+  padding: 1rem;
+}
+.container {
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  font-size: 1.5rem;
+  color: white;
+  -webkit-box-shadow: -11px -3px 13px 1px rgba(0, 0, 0, 0.87);
+  box-shadow: -11px -3px 13px 1px rgba(0, 0, 0, 0.87);
+}
+.container div {
+  padding: 4rem;
+  border-radius: 10px;
+}
+
+.Header {
+  background-color: rgb(75, 75, 225);
+  grid-column: 1/-1; /*-1 ındex numarası gıbı en sonuncu columna kadar demek*/
+}
+.Box1 {
+  background-color: rgb(75, 75, 225);
+  grid-column: 1/2;
+}
+.Box2 {
+  background-color: rgb(75, 75, 225);
+  grid-column: 2/3;
+}
+.Box3 {
+  background-color: rgb(75, 75, 225);
+  grid-column: 3/4;
+}
+.Sidebar {
+  background-color: rgb(75, 75, 225);
+  grid-column: 4/5;
+  grid-row: 2/5;
+}
+.Main {
+  background-color: rgb(75, 75, 225);
+  grid-column: 1/4;
+  grid-row: 3/5;
+}
+.Footer {
+  background-color: rgb(75, 75, 225);
+  grid-column: 1/-1; /*-1 ındex numarası gıbı en sonuncu columna kadar demek*/
+}
