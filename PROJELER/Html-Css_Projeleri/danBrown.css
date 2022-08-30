@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://danbrown.com/wp-content/uploads/2020/02/Website_Banner3_v2-1536x491.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: max-content 100px;
+  margin: auto;
+}
+.container {
+  background: rgba(0, 0, 0, 0.922);
+}
+.title {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+}
+#resim1,
+#resim1 img {
+  width: 100%;
+  margin: auto;
+  /* height: 130px; */
+}
+.lili li {
+  display: inline-block;
+  background-color: rgba(0, 255, 255, 0.03);
+  padding: 10px;
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0px 30px;
+}
+.lili {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.lili li:hover {
+  background-color: rgba(0, 255, 255, 0.397);
+  border: 2px solid rgb(237, 157, 10);
+  border-radius: 30px;
+}
+.lili li a {
+  color: rgb(210, 136, 32);
+  padding: 20px;
+  margin-top: 50px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.merkez_acıklama img {
+  float: left;
+  width: 100%;
+  max-width: 500px;
+  height: 350px;
+  margin: 10px 20px 0px 0px;
+}
+.ana_yazı {
+  /* margin-top: 60px; */
+  font-size: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  text-indent: 30px;
+}
+.ana_yazı h1 {
+  text-align: left;
+  color: rgb(210, 136, 32);
+  font-size: 30px;
+}
+.ana_yazı a {
+  color: rgb(210, 136, 32);
+  text-decoration: none;
+}
+.ana_yazı a:hover {
+  background-color: rgba(0, 255, 255, 0.397);
+  border: 2px solid rgb(237, 157, 10);
+  border-radius: 30px;
+  padding: 5px;
+}
+h1::first-letter {
+  font-size: 3rem;
+}
+marquee img {
+  width: 150px;
+  padding: 15px;
+  margin-right: 45px;
+  border: 2px solid rgb(237, 157, 10);
+}
+marquee img:hover {
+  background-color: rgba(0, 255, 255, 0.397);
+  width: 160px;
+}
+.img2 img {
+  width: 100%;
+  height: 400px;
+}
