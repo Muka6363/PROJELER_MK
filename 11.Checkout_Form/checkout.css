@@ -7,33 +7,33 @@ body {
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   width: 1100px;
-  align-tracks: ;
 }
 header {
   text-align: center;
-  margin: 2rem;
-  padding-left: 20rem;
+  margin: 0.2rem 2rem 1rem 2rem;
+  padding-left: 30rem;
 }
 main {
   display: flex;
   gap: 4rem;
   width: auto;
 }
-h2 {
-  margin-top: 2rem;
+h3 {
+  margin-top: 1rem;
 }
 .main_right {
   background-color: rgba(18, 19, 19, 0.113);
   border-radius: 10px;
   width: 400px;
-  height: 450px;
+  height: 350px;
+  margin-left: 40px;
 }
 .myForum {
-  width: 650px;
+  width: 600px;
   opacity: 0.8;
-  line-height: 1.8rem;
-  margin-left: 1rem;
-  padding: 0.2rem 3rem;
+  line-height: 1.7rem;
+  margin-left: 10%;
+  padding: 0rem 1rem 0rem 3rem;
 }
 #post {
   width: 20rem;
@@ -61,14 +61,15 @@ select {
 }
 #box {
   width: auto;
-  margin: 1rem 0 1rem 0;
+  margin: 0px;
+  border: 2px solid red;
 }
 
 .myForum button {
   border: none;
   border-radius: 10px;
   margin-left: 30rem;
-  padding: 1rem;
+  padding: 0.6rem;
   background-color: rgb(252, 165, 4);
   color: aliceblue;
   font-size: 1rem;
@@ -93,16 +94,17 @@ hr {
 
 .first {
   display: flex;
-  margin: 2rem 2rem 1rem 1.5rem;
+  margin: 2rem 2rem 0.8rem 1.5rem;
   width: 50%;
 }
 .first img {
   width: 90px;
+  height: 100px;
   border-radius: 10px;
 }
 .top_end {
   margin-left: 2rem;
-  margin-bottom: 8px;
+  margin-bottom: 1px;
 }
 .top_end1 {
   text-decoration: none;
@@ -114,12 +116,11 @@ hr {
   padding: 3px;
   width: 90px;
   justify-content: space-between;
-  font-weight: bold;
-  margin-top: 3.5rem;
-  margin-left: 0;
+  font-size: 15px;
+  margin-top: 1.5rem;
 }
 .botton div {
-  padding: 3px;
+  padding: 2px;
 }
 .first button {
   width: 17px;
