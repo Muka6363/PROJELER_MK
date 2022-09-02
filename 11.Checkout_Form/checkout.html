@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="checkout.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Checkout</h1>
+    </header>
+    <main>
+      <aside class="myForum">
+        <form action="#" method="get">
+          <div class="forum top">
+            <h2>Contact information</h2>
+            <i class="fa-solid fa-envelope"></i>
+            <label for="mail"
+              >Email <br />
+              <input
+                type="email"
+                name="login_mail"
+                id="mail"
+                placeholder="Enter your email..."
+              />
+            </label>
+            <br />
+            <i class="fa-solid fa-phone"></i>
+            <label for="tel"
+              >Phone <br />
+              <input
+                type="tel"
+                name="login_tel"
+                id="tel"
+                placeholder="Enter your phone..."
+              />
+            </label>
+          </div>
+          <div class="forum botton">
+            <h2>Shipping address</h2>
+            <i class="fa-solid fa-user"></i>
+            <label for="name">
+              Full name <br />
+              <input
+                type="text"
+                name="logın_name"
+                id="name"
+                placeholder="Enter your Full name..."
+              />
+            </label>
+            <br />
+            <i class="fa-solid fa-house-chimney"></i>
+            <label for="address"
+              >Address <br />
+              <input
+                type="text"
+                name="logın_address"
+                id="address"
+                placeholder="Enter your address..."
+            /></label>
+            <br />
+            <i class="fa-sharp fa-solid fa-city"></i>
+            <label for="city"
+              >City <br />
+              <input
+                type="text"
+                name="logın_city"
+                id="city"
+                placeholder="Enter your city..."
+            /></label>
+            <br />
+            <div class="forum end">
+              <i class="fa-solid fa-earth-americas"></i
+              ><label for=""
+                >Country <br />
+                <select name="Country" id="">
+                  <option value="Turkiye">Turkiye</option>
+                  <option value="Yunanistan">Yunanistan</option>
+                  <option value="İsvec">İsvec</option>
+                </select></label
+              >
+              <label for="post">
+                <i class="fa-solid fa-envelopes-bulk"></i>
+                Post Code <br />
+                <input
+                  type="number"
+                  name="login_post"
+                  id="post"
+                  placeholder="Enter your postal code..."
+                />
+              </label>
+            </div>
+            <br />
+            <div>
+              <label for="box">
+                <input type="checkbox" name="box" id="box" required /> See this
+                information next time
+              </label>
+            </div>
+          </div>
+          <button type="submit">Continue</button>
+        </form>
+      </aside>
+      <aside class="main_right">
+        <div class="first">
+          <div class="img">
+            <img
+              src="https://dfcdn.defacto.com.tr/7/W0443AZ_NS_RD1_01_01.jpg"
+              alt=""
+            />
+          </div>
+          <div class="top_end">
+            <div>Vintage Backbag</div>
+            <p><p><strong>$63.63</strong> <span>$6363</span></p></p>
+            <div class="first botton">
+              <div><button>-</button></div>
+              <div>1</div>
+              <div><button>+</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="first">
+          <div class="img">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj8Wj2ymGEAhv6pruEtOTQIZVjoByp0A5i_A&usqp=CAU"
+              alt=""
+            />
+          </div>
+          <div class="top_end">
+            <p>Levi Shoes</p>
+            <p><strong>$63.63</strong> <span>$6363</span></p>
+            <div class="first botton">
+              <div><button>-</button></div>
+              <div>1</div>
+              <div><button>+</button></div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="first endend">
+          <div class="pric1">Shipping</div>
+          <div class="pric2">$63</div>
+        </div>
+        <hr />
+        <div class="first endend">
+          <div class="pric1">Total</div>
+          <div class="pric2">$630.63</div>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>
