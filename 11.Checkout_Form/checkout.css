@@ -73,6 +73,7 @@ select {
   background-color: rgb(252, 165, 4);
   color: aliceblue;
   font-size: 1rem;
+  cursor: pointer;
 }
 strong {
   font-size: 1.3rem;
