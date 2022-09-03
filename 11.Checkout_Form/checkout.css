@@ -75,6 +75,11 @@ select {
   font-size: 1rem;
   cursor: pointer;
 }
+.myForum button:hover {
+  background-color: rgb(255, 186, 12);
+  color: white;
+  text-decoration: underline;
+}
 strong {
   font-size: 1.3rem;
   color: rgb(252, 165, 4);
