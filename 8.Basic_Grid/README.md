@@ -1,4 +1,4 @@
-### Check The Live Website :arrow_right: [Live Website](https://sekunev.github.io/Projects/25_Bootstrap-Web-Page/)
+### Check The Live Website :arrow_right: [Live Website](https://github.com/Muka6363/PROJELER_MK/blob/main/8.Basic_Grid/8.grid.html)
 ### Visualization of the Website
 ![image](https://user-images.githubusercontent.com/101554737/189495711-a7c54c5a-ecdc-4c03-845f-168295438881.png)
 ![image](https://user-images.githubusercontent.com/101554737/189495743-cc801160-f437-4369-a561-2142b8fff751.png)
