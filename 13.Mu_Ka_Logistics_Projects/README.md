@@ -14,8 +14,7 @@ I mastered HTML, CSS and Bootstrap features in this project. You can see the vis
 ### How to Use the Project
 + First download a code editor
 + Second open the files : [My Docs](https://github.com/Muka6363/PROJELER_MK/tree/main/13.Mu_Ka_Logistics_Projects)
-+ You can use this tutorial : [VS Code tutorial]
-+ (https://www.youtube.com/watch?v=fJEbVCrEMSE)
++ You can use this tutorial : [VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
 
 https://user-images.githubusercontent.com/101215803/189503263-428cd02f-09a7-46c5-9d79-76ee64e8f5f4.png
 
