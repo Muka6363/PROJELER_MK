@@ -11,7 +11,7 @@
 ### Overview
 I mastered HTML, CSS and Bootstrap features in this project. You can see the visual representation of the website above.
 ### Used in this project
-:point_right:HTML tags, Bootstrap, Comments, CSS styling, Positioning,etc.
+:point_right:HTML tags, Bootstrap, Comments, CSS styling, Positioning,etc.:point_left:
 ### How to Use the Project
 + First download a code editor
 + Second open the files : :point_right:[My Docs](https://github.com/Muka6363/PROJELER_MK/tree/main/13.Mu_Ka_Logistics_Projects)
