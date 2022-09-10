@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*! NAVBAR  */
+.navbar-brand:hover {
+  -webkit-box-shadow: 0px 0px 24px 17px #000000;
+  box-shadow: 0px 0px 24px 17px #f50202;
+  background: none;
+}
+/*! BANNER  */
+.banner {
+  background-image: url(https://www.ubexpres.com/wp-content/uploads/uluslaras%C4%B1-lojistik-firmalari-1024x475.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 88px);
+  background-color: rgba(0, 0, 0, 0.033);
+}
+.banner__par {
+  text-align: center;
+  padding: 15%;
+  color: rgb(255, 254, 254);
+}
+
+/*! Services  */
+/*! Portfolio  */
+/*! About us  */
+
+/*! Our Team  */
+/*! Buttom Navbar  */
+/*! Contact us  */
+.contact {
+  background-image: url(https://assets.volvo.com/is/image/VolvoInformationTechnologyAB/volvo-fh-the-next-step-in-evolution?qlt=82&wid=1920&ts=1638179041496&dpr=off&fit=constrain);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 88px);
+  background-color: rgba(0, 0, 0, 0.033);
+}
+/*! Footer  */

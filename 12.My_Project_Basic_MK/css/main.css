@@ -1,0 +1,36 @@
+main {
+  height: 80vh;
+  background-image: url(../../../Images/avatar_2-removebg-preview.png);
+  border: 8px solid #66ff00;
+  text-align: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.home-bgImg-container {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  height: 10vh;
+  padding: 1rem;
+}
+.nav__list {
+  text-align: right;
+}
+.nav__item {
+  list-style-type: none;
+  display: inline;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */

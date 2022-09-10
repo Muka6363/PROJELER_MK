@@ -1,0 +1,8 @@
+@import "./sass/abstracts/variables", "./sass/abstracts/mixins";
+@import "./sass/components/footer", "./sass/components/header",
+  "./sass/components/nav", "./sass/components/responsive";
+
+a {
+  text-decoration: none;
+}
+// ************************************************HEADER**************************************************//
