@@ -19,6 +19,8 @@
 ### Project-6 :arrow_right: [Basic_Title_Project](https://muka6363.github.io/PROJELER_MK/6.Basic_Title/index.html) :arrow_left:
 ![image](https://user-images.githubusercontent.com/101215803/189547131-f12db522-a80f-40b2-9d1c-5aeda7471649.png)
 
+### Project-8 :arrow_right: [Basic_Grid_Project](https://muka6363.github.io/PROJELER_MK/8.Basic_Grid/index.html) :arrow_left:
+![image](https://user-images.githubusercontent.com/101215803/189503058-d6898f6a-0282-4a7d-ac12-298a20f66747.png)
 
 ### Project-13 :arrow_right: [Mu_Ka_Logistics_Projects](https://muka6363.github.io/PROJELER_MK/13.Mu_Ka_Logistics_Projects/index.html) :arrow_left:
 ![image](https://user-images.githubusercontent.com/101215803/189503263-428cd02f-09a7-46c5-9d79-76ee64e8f5f4.png)
