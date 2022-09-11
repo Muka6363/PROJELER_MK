@@ -20,7 +20,9 @@ I mastered HTML-CSS features in this project. You can see the visual representat
 + You can use this tutorial :point_right:[VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
 
 :point_right: https://user-images.githubusercontent.com/101215803/189545498-29ca4f0a-f213-4acd-8fd0-4353616a3ea1.png
+
 :point_right: https://user-images.githubusercontent.com/101215803/189545705-b5b67b78-143e-419b-bdce-c9d36f0a30d9.png
+
 :point_right: https://user-images.githubusercontent.com/101215803/189545736-636e1692-28c1-4cc2-870a-69be38a9f7b3.png
 
 
