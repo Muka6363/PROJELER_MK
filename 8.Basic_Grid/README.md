@@ -1,3 +1,5 @@
+
+<img align="right" src="https://github.com/Muka6363/PROJELER_MK/blob/main/Images/avatar_2-removebg-preview.png"  width="100px">
 ### Check The Live Website :arrow_right: [Basic_Grid_Project](https://muka6363.github.io/PROJELER_MK/8.Basic_Grid/index.html)
 ### Visualization of the Website
 ![image](https://user-images.githubusercontent.com/101215803/189503058-d6898f6a-0282-4a7d-ac12-298a20f66747.png)
