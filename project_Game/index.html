@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number!</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="text-center mt-2 p-4">
+      <h1>GUESS MY NUMBER</h1>
+      <div class="mt-4">
+        <p>Secret Number:</p>
+        <p class="secret-number">?</p>
+      </div>
+    </header>
+    <hr />
+    <main class="container text-center p-3">
+      <p>Select a number between 1-100</p>
+      <section class="row justify-content-center align-items-center g-3 m-3">
+        <input type="number" class="col-md-4 p-2 guess-input text-center" />
+        <button class="btn btn-outline-light col-md-4 p-2 check-btn">Check</button>
+      </section>
+
+      <section class="mt-4">
+        <p class="msg">Starting..</p>
+        <p class="score-label">
+         <i class="fa-solid fa-hashtag fa-2x"></i>  Score:
+          <span class="score"> 10</span>
+          <p class="top-score-label mb-4">
+            <i class="fa-solid fa-award fa-2x"></i> Top Score:
+            <span class="top-score">0</span>
+          </p>
+        </p>
+
+        <button class="btn btn-outline-light again-btn p-2 mt-4 w-50">Again</button>
+      </section>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
