@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Example-2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container text-center">
+      <br />
+      <a class="ahref" href="#">💢About Programing💢</a> <br />
+      <textarea class="text-area d-none m-1" name="" id="" cols="60" rows="10">
+        1. If you click the "ADD" button after typing any text in the input field, it will be added to the list on the right.
+        2. Press the "DEL" button to delete the ones added to this list, starting from the end.
+        3. The Enter key performs the same action as the "ADD" button.
+        4. The Delete button performs the same action as the "DEL" button.
+        5. Also, whichever way you write the "javascript" programming language will be written in red in the list.</textarea
+      >
+      <br />
+      <h1 class="header">
+        BASIC_PROGRAMING <br />
+        <span>_Mu💢Ka_</span>
+      </h1>
+      <main class="justify-content-center d-flex">
+        <section class="inp-but d-flex gap-2 mt-3 justify-content-center">
+          <div>
+            <button class="btn-add bg-primary text-white rounded-5">ADD</button>
+            <button class="btn-del bg-danger text-white rounded-5">
+              DELETE
+            </button>
+          </div>
+          <div><input class="input rounded-5" type="text" /></div>
+        </section>
+
+        <ul
+          class="list-add m-1 border border-2 border-danger rounded-5 p-4 w-25"
+        ></ul>
+      </main>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="mycal.js"></script>
+  </body>
+</html>
