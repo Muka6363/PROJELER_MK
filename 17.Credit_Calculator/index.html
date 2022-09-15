@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Credit_Programing</title>
+      <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"/>
+<link rel="shortcut icon" href="../Images/avatar_2-removebg-preview.png" type="image/x-icon">
+  </head>
+	<body>
+		<div style="background-position: center; background-size: cover; background-image: url(https://cdn.pixabay.com/photo/2013/01/08/13/19/cowrie-74404_960_720.jpg);" class="container d-flex justify-content-center align-items-center flex-column mt-5">
+      <main class="col justify-content-center align-items-center  ">
+        <h1 class="text-center display-3 fw-semibold text-body ">\__💢Credit Programing💢__/</h1>
+        <div style="opacity: 1;"class="">
+          <form class="mt-4">
+            <label for="krediTipi" class="form-label text-black">Kredi</label>
+              <select id="krediTipi" class="form-select mb-3" aria-label="Default select example">
+                  <option selected>Kredi Tipini Seçiniz</option>
+                  <option value="konut">Konut Kredisi</option>
+                  <option value="ihtiyac">İhtiyaç Kredisi</option>
+                  <option value="arac">Araç Kredisi</option>
+              </select>
+              <div class="mb-3">
+                  <label for="vade" class="form-label text-black">Vade</label>
+                  <input type="number" min="3" max="120" class="form-control" id="vade" aria-describedby="emailHelp" required>
+              </div>
+              <div class="mb-3">
+                  <label for="tutar" class="form-label text-black">Tutar</label>
+                  <input type="number" class="form-control" id="tutar">
+              </div>
+              <button type="submit" class="btn btn-success w-100 mt-4 mb-3">Hesapla</button>
+          </form>
+        </div>
+
+
+        <div id="plan" class="row d-none">
+          <h4 class=" mt-5 d-flex justify-content-center align-items-center mb-3">
+            <span class="text-white">💢Ödeme Planı💢</span>
+          </h4>
+  
+          <ul class="d-flex list-group mb-3 ms-1 justify-content-center">
+            <div class="row">
+              <div class="col-md-6">
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                  <div>
+                    <h6 id=""  class="my-0">Kredi Miktarı</h6>
+                  </div>
+                  <span id="krediMiktari" class="text-muted">0</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                  <div>
+                    <h6 id=""  class="my-0">Kredi Tipi</h6>
+                  </div>
+                  <span id="krediTipiTablo" class="text-muted">0</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                  <div>
+                    <h6 id=""  class="my-0">Vadesi</h6>
+                  </div>
+                    <span id="vadesi" class="text-muted">0</span>
+                </li>
+              </div>	
+  
+              <div class="col-md-6">
+  
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                  <div>
+                    <h6 id=""  class="my-0">Faiz Oranı</h6>
+                    
+                  </div>
+                  <span id="faizOrani" class="text-muted">0</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                  <div>
+                    <h6 id=""  class="my-0">Aylık Taksit Tutarı</h6>
+                    
+                  </div>
+                  <span id="taksitTutari" class="text-muted">0</span>
+                </li>
+                
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                  <span>Toplam Ödenecek Tutar</span>
+                  <span id="genelToplam" class="text-success"><strong>0</strong></span>
+                </li>
+              </div>
+          </ul>
+        </div>
+      </main>
+
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="credit.js"></script>
+  </body>
+</html>
