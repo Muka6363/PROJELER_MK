@@ -7,7 +7,8 @@
 body {
   font-family: "Press Start 2P", cursive;
   color: white;
-  background-color: #2d3436;
+  background-color: #14b5e1;
+  border: 5px solid red;
 }
 
 .secret-number {
