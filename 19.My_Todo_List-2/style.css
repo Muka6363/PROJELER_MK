@@ -1,0 +1,56 @@
+body {
+  background-image: url(https://i4.hurimg.com/i/hurriyet/75/1200x675/58eb78a90f254421b4a0dcbb.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+.bg-p {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+.myul {
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+.myli {
+  background-color: #2deb50dc;
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+  margin: 0.3rem;
+  padding: 0.7rem;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.fa-square {
+  cursor: pointer;
+}
+.fa-trash-can {
+  cursor: pointer;
+}
+.fa-check {
+  cursor: pointer;
+}
+.buton3 {
+  border-radius: 50%;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+.fa-check ~ span {
+  text-decoration: line-through;
+  color: white;
+}
+.bg {
+  background-color: red;
+  color: white;
+}
+.input {
+  width: 45rem;
+}
