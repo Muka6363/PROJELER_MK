@@ -41,7 +41,7 @@
 ![image](https://user-images.githubusercontent.com/101215803/190506627-271edc43-22dd-4d84-b32c-a32f557ddaa7.png)
 
 ### Project-19 :arrow_right:[My_Todo_List-2_Project](https://muka6363.github.io/PROJELER_MK/19.My_Todo_List-2/index.html) :arrow_left:
-![image](https://user-images.githubusercontent.com/101215803/191047485-2ae0f9dc-4e7c-4af3-948e-9815ea308580.png)
+![image](https://user-images.githubusercontent.com/101215803/191048875-7c8191b8-19a7-4d45-965e-504313df8b97.png)
 
 
 
