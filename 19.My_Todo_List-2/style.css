@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-image: url(https://i4.hurimg.com/i/hurriyet/75/1200x675/58eb78a90f254421b4a0dcbb.jpg);
   background-size: cover;
@@ -52,5 +57,5 @@ body {
   color: white;
 }
 .input {
-  width: 45rem;
+  width: 50vw;
 }
