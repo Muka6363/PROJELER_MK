@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1 id="checkout-title">Checkout Page</h1>
+    <main>
+      <div id="products-preview">
+        <div id="product-painel">
+          <div class="products">
+            <div class="product">
+              <img
+                src="https://cdn.yemek.com/mnresize/940/940/uploads/2019/01/ev-usulu-urfa-kebap-tarifi.jpg"
+                alt=""
+              />
+              <div class="product-info">
+                <h2>S.URFA Kebap</h2>
+                <div class="product-price">
+                  <p>
+                    <strong>10.63</strong>
+                    <span class="line-through">15.63</span>
+                  </p>
+                </div>
+                <div class="quantity-controller">
+                  <i class="fa-solid fa-minus"></i>
+                  <p class="quantity">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="product-removal">
+                  <button class="remove-product">Remove</button>
+                </div>
+                <div class="product-line-price">10.63</div>
+              </div>
+            </div>
+
+            <div class="product">
+              <img
+                src="https://sultanyar.com.tr/library/patlicanKebap-1464606407.jpg"
+                alt=""
+              />
+              <div class="product-info">
+                <h2>Patlıcanlı Kebap</h2>
+                <div class="product-price">
+                  <p>
+                    <strong>25.63</strong>
+                    <span class="line-through">35.63</span>
+                  </p>
+                </div>
+                <div class="quantity-controller">
+                  <i class="fa-solid fa-minus"></i>
+                  <p class="quantity">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="product-removal">
+                  <button class="remove-product">Remove</button>
+                </div>
+                <div class="product-line-price">35.99</div>
+              </div>
+            </div>
+
+            <div class="product">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZajtcjeCgE1LXj9Af93CJf02cSe9UpGaz9oV8xvi4qtVCW9cVGSqdb66WEe09sXYd23Y&usqp=CAU"
+                alt=""
+              />
+              <div class="product-info">
+                <h2>Special Kebap</h2>
+                <div class="product-price">
+                  <p>
+                    <strong>63.63</strong>
+                    <span class="line-through">65.63</span>
+                  </p>
+                </div>
+                <div class="quantity-controller">
+                  <i class="fa-solid fa-minus"></i>
+                  <p class="quantity">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="product-removal">
+                  <button class="remove-product">Remove</button>
+                </div>
+                <div class="product-line-price">63.63</div>
+              </div>
+            </div>
+          </div>
+          <div class="buy-detail" id="cart-subtotal">
+            <p>Subtotal</p>
+            <p>0</p>
+          </div>
+          <div class="buy-detail" id="cart-tax">
+            <p>Tax(%1)</p>
+            <p>0</p>
+          </div>
+          <div class="buy-detail" id="cart-shipping">
+            <p>Shipping</p>
+            <p>0</p>
+          </div>
+          <div class="buy-detail" id="cart-total">
+            <p>Total</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="DOM-5.js"></script>
+  </body>
+</html>
