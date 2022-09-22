@@ -11,6 +11,9 @@ body {
   height: 100vh;
   position: relative;
 }
+.container {
+  min-width: 375px;
+}
 .bg-p {
   position: absolute;
   bottom: 0;
@@ -33,6 +36,7 @@ body {
   padding: 0.7rem;
   border-radius: 30px;
   font-weight: bold;
+  word-break: break-all;
 }
 .fa-square {
   cursor: pointer;
@@ -59,3 +63,13 @@ body {
 .input {
   width: 50vw;
 }
+@media all and (max-width: 780px) {
+  .h1 {
+    font-size: 30px;
+  }
+}
+@media all and (max-width: 600px) {
+  .h1 {
+    font-size: 20px;
+  }
+} ;
