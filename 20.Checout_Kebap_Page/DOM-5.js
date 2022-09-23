@@ -4,11 +4,11 @@ const shippingFreePrice = 300;
 
 window.addEventListener("load", () => {
   calculateCartPrice();
-  //   //   set items to LocalStorage
-  //   localStorage.setItem("taxRate", taxRate);
-  //   localStorage.setItem("shippingPrice", shippingPrice);
-  //   localStorage.setItem("shippingFreePrice", shippingFreePrice);
-  //   //   set items to sessionStorage
+  //   set items to LocalStorage
+  localStorage.setItem("taxRate", taxRate);
+  localStorage.setItem("shippingPrice", shippingPrice);
+  localStorage.setItem("shippingFreePrice", shippingFreePrice);
+  //   set items to sessionStorage
   //   sessionStorage.setItem("taxRate", taxRate);
   //   sessionStorage.setItem("shippingPrice", shippingPrice);
   //   sessionStorage.setItem("shippingFreePrice", shippingFreePrice);
@@ -36,7 +36,9 @@ productsDiv.addEventListener("click", (event) => {
         )
       ) {
         //remove
-        event.target.parentElement.parentElement.parentElement.remove();
+        // event.target.parentElement.parentElement.parentElement.remove();
+        //! closest() ile kisa yoldan secim yapilabilir.
+        event.target.closest(".product").remove();
         calculateCartPrice();
       }
     }
@@ -76,10 +78,15 @@ const calculateCartPrice = () => {
   //foreach ==> NodeList, Array
   //const productsTotalPricesDivs = [...document.getElementsByClassName("product-line-price")];
 
-  let subtotal = 0;
-  productsTotalPricesDivs.forEach((div) => {
-    subtotal += parseFloat(div.innerText);
-  });
+  // let subtotal = 0;
+  // productsTotalPricesDivs.forEach((div) => {
+  //   subtotal += parseFloat(div.innerText);
+  // });
+  //! alternatif olarak reduce metodu da kullanilabilir.
+  const subtotal = [...productsTotalPricesDivs].reduce(
+    (acc, price) => acc + Number(price.innerText),
+    0
+  );
   //console.log(subtotal);
   const taxPrice = subtotal * localStorage.getItem("taxRate");
 
