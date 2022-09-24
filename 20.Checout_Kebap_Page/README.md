@@ -1,7 +1,8 @@
 # Hello...🙋🏻‍♂️...I'm Here With My Newest Project❤<img align="right" src="https://github.com/Muka6363/PROJELER_MK/blob/main/Images/avatar_2-removebg-preview.png"  width="100px">
 ### Check The Live Website :arrow_right:[Checout_Kebap_Page_Project](https://muka6363.github.io/PROJELER_MK/20.Checout_Kebap_Page/index.html) :arrow_left:
 ### Visualization of the Website
-![image](https://user-images.githubusercontent.com/101215803/192033128-0f59f4f6-0843-494b-bacb-52495612d584.png)
+![image](https://user-images.githubusercontent.com/101215803/192038109-66f32ea7-7f35-451e-ad1a-9fff26ef6043.png)
+
 
 
 
@@ -15,4 +16,4 @@ I mastered HTML-CSS features in this project. You can see the visual representat
 + Second open the files : :point_right:[My Docs](https://muka6363.github.io/PROJELER_MK/Checout_Kebap_Page/index.html)
 + You can use this tutorial :point_right:[VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
 
-:point_right: https://user-images.githubusercontent.com/101215803/192033128-0f59f4f6-0843-494b-bacb-52495612d584.png
+:point_right: https://user-images.githubusercontent.com/101215803/192038109-66f32ea7-7f35-451e-ad1a-9fff26ef6043.png
