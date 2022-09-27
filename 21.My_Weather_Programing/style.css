@@ -3,3 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-image: url("./img/ireland-1971997_1920.jpg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  height: 100vh;
+  /* height: auto; */
+}
+
+.card {
+  background-color: rgba(0, 255, 255, 0.29);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  -webkit-box-shadow: 13px 1px 6px 0px rgba(0, 0, 0, 0.88);
+  box-shadow: 13px 1px 6px 0px rgba(0, 0, 0, 0.88);
+}
+input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+::placeholder {
+  color: rgb(255, 255, 255);
+}
