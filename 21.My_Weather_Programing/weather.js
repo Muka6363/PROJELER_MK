@@ -40,19 +40,20 @@ class="w-25 mx-auto"
   const { name, main, weather } = item;
   console.log(item);
   weatherListDiv.innerHTML += `
-  <div class="card col-sm-6 col-md-4 col-lg-3" style="width: 15rem; height:30rem">
-  <p class="list-group-item display-5 fw-bold">
+  <div class="card col-sm-6 col-md-4 col-lg-3">
+  <p class="list-group-item fs-1 fw-bold">
     ${name.replace("Province", "")}
   </p>
-  <p class="list-group-item display-5 fw-bold">
+  <p class="list-group-item fs-1 fw-bold">
     ${Math.round(main.temp)}°C
   </p>
   <img
     src="http://openweathermap.org/img/w/${weather[0].icon}.png"
-    class="card-img-top fw-bold display-5 "
+    class="card-img-top fw-bold fs-1
+ "
     alt="icon"
   />
-  <p class="list-group-item fw-bold display-5">
+  <p class="list-group-item fw-bold fs-1">
     ${weather[0].description.toUpperCase()}
   </p>
   <p class="list-group-item temp_min-max fw-bold">
@@ -70,20 +71,23 @@ const aciklama = document.querySelector(".newsList");
 button.addEventListener("click", () => {
   // const weatherListDiv = document.querySelector(".container");
   if (cities.includes(input.value.toLowerCase())) {
-    aciklama.innerHTML = `<h2>You already know the weather in ${input.value.toUpperCase()}</h2>`;
+    aciklama.innerHTML = `<h2 class="bg-danger text-white w-50 text-center">...Please search for another city...</h2>`;
+    setTimeout(() => {
+      aciklama.textContent = "";
+    }, 2000);
   } else {
     cities.push(input.value.toLowerCase());
     getWeather(input.value);
-    aciklama.innerHTML = "<h2> </h2>";
+    aciklama.innerHTML = " ";
   }
   input.value = "";
-  if (weather[0].main == "Rain") {
-    body.className = "rain";
-  } else if (weather[0].main == "Clear") {
-    body.className = "clear";
-  }
-  console.log(item);
 });
+// if (cities.includes(name)) {
+//     warningText.textContent = `...Please search for another city...`;
+//     setTimeout(() => {
+//       aciklama.textContent = "";
+//     }, 2000);
+
 //* enter tuşu aktif olması için
 input.addEventListener("keydown", (e) => {
   e.key === "Enter" && button.click();
