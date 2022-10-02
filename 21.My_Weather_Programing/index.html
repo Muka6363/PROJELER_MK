@@ -19,28 +19,37 @@
     <title>My_Weather_Programıng</title>
   </head>
   <body>
-    <h1 class="text-center p-3 mt-5">My_Weather_Programıng</h1>
-    <div class="input-group mb-5 w-100 mx-auto mt-3 justify-content-center">
-      <input
-        type="text"
-        class="input w-50"
-        placeholder="✍Please Enter A City"
-        aria-label="Recipient's username"
-        aria-describedby="button-addon2"
-      />
-      <button
-        class="btn btn-danger ms-3 rounded-3 text-light"
-        type="button"
-        id="button-addon2"
-      >
-        Submit
-      </button>
+    <div class="banner">
+      <div class="container">
+        <section>
+          <h1 class="text-center text-danger p-3">My_Weather_Programıng</h1>
+          <div
+            class="input-group mb-5 w-100 mx-auto mt-3 justify-content-center"
+          >
+            <input
+              type="text"
+              class="input w-50"
+              placeholder="✍Please Enter A City"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn btn-danger ms-3 rounded-3 text-light"
+              type="button"
+              id="button-addon2"
+            >
+              Submit
+            </button>
+          </div>
+        </section>
+        <section class="text-center justify-content-center">
+          <div class="newsList"></div>
+          <ul
+            class="myContainer row gap-3 text-center justify-content-center"
+          ></ul>
+        </section>
+      </div>
     </div>
-
-    <div class="newsList text-center"></div>
-    <div
-      class="container row gap-3 text-center m-auto justify-content-center"
-    ></div>
     <script src="./weather.js"></script>
   </body>
 </html>

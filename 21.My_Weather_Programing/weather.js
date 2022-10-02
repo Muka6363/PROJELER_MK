@@ -22,14 +22,9 @@ const getWeather = async (cityName) => {
 };
 //* değerleri yazdırmak için
 const renderWeather = (item) => {
-  const weatherListDiv = document.querySelector(".container");
+  const weatherListDiv = document.querySelector(".myContainer");
   if (isError) {
-    weatherListDiv.innerHTML = `<h2>The city name is incorrect. Please check and login again.</h2>
-<img
-src="https://cdn.pixabay.com/photo/2014/03/25/16/27/attention-297169_960_720.png"
-alt=""
-class="w-25 mx-auto"
-/>
+    weatherListDiv.innerHTML = `<h2 class="bg-danger text-white">The city name is incorrect. Please check and login again.</h2>
 `;
     isError = false;
     setTimeout(() => {
@@ -41,24 +36,23 @@ class="w-25 mx-auto"
   console.log(item);
   weatherListDiv.innerHTML += `
   <div class="card col-sm-6 col-md-4 col-lg-3">
-  <p class="list-group-item fs-1 fw-bold">
+  <li class=" fs-3 fw-bold">
     ${name.replace("Province", "")}
-  </p>
-  <p class="list-group-item fs-1 fw-bold">
+  </li>
+  <li class="fs-3 fw-bold">
     ${Math.round(main.temp)}°C
-  </p>
+  </li>
   <img
     src="http://openweathermap.org/img/w/${weather[0].icon}.png"
-    class="card-img-top fw-bold fs-1
- "
+    class="fw-bold"
     alt="icon"
   />
-  <p class="list-group-item fw-bold fs-1">
+  <li class="fw-bold">
     ${weather[0].description.toUpperCase()}
-  </p>
-  <p class="list-group-item temp_min-max fw-bold">
+  </li>
+  <li class="fw-bold">
     ${Math.round(main.temp_min)} / ${Math.round(main.temp_max)}°C
-  </p>
+  </li>
   <button class="btn remove btn-danger w-50 mx-auto" type="button">
     Remove
   </button>
@@ -71,7 +65,7 @@ const aciklama = document.querySelector(".newsList");
 button.addEventListener("click", () => {
   // const weatherListDiv = document.querySelector(".container");
   if (cities.includes(input.value.toLowerCase())) {
-    aciklama.innerHTML = `<h2 class="bg-danger text-white w-50 text-center">...Please search for another city...</h2>`;
+    aciklama.innerHTML = `<h2 class="bg-danger text-white w-50">...Please search for another city...</h2>`;
     setTimeout(() => {
       aciklama.textContent = "";
     }, 2000);

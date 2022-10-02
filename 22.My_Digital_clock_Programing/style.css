@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  background-image: url(./pendulum-1934311_1920.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+span {
+  color: aliceblue;
+}
+.time {
+  /* background-color: rgba(0, 0, 255, 0.404); */
+  padding: 2rem;
+  margin-top: 15rem;
+  border-bottom: 20px solid rgb(255, 255, 255);
+  border-top: 10px solid rgb(255, 255, 255);
+  border-left: 10px solid red;
+  border-right: 10px solid red;
+  color: rgb(249, 10, 10);
+  font-size: 7vw;
+}
