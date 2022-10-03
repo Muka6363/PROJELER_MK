@@ -32,3 +32,7 @@ input {
   color: rgb(231, 11, 11);
   font-weight: bold;
 }
+
+li {
+  list-style-type: none;
+}

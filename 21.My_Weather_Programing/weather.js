@@ -1,7 +1,9 @@
 const input = document.querySelector("input");
 const button = document.querySelector("button");
 const myCard = document.querySelector(".card");
+
 let isError = false;
+
 //* api'den veri çekmek için
 const getWeather = async (cityName) => {
   const key = "6e1a3eda9fa53b82169bd49471c74f36";
@@ -23,6 +25,7 @@ const getWeather = async (cityName) => {
 //* değerleri yazdırmak için
 const renderWeather = (item) => {
   const weatherListDiv = document.querySelector(".myContainer");
+
   if (isError) {
     weatherListDiv.innerHTML = `<h2 class="bg-danger text-white">The city name is incorrect. Please check and login again.</h2>
 `;
@@ -31,6 +34,7 @@ const renderWeather = (item) => {
       weatherListDiv.innerHTML = "";
     }, 1500);
   }
+
   console.log(item);
   const { name, main, weather } = item;
   console.log(item);
