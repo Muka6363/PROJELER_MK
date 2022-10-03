@@ -46,10 +46,8 @@
 ### Project-20 :arrow_right:[Checout_Kebap_Page_Project](https://muka6363.github.io/PROJELER_MK/20.Checout_Kebap_Page/index.html) :arrow_left:
 ![image](https://user-images.githubusercontent.com/101215803/192037998-3f8cadb5-b5ce-4499-9a44-1b43afab9a11.png)
 
-
-
-
-
+### Project-22:arrow_right:[My_Digital_Clock_Programing_Project](https://muka6363.github.io/PROJELER_MK/22.My_Digital_Clock_Programing/index.html) :arrow_left:
+![image](https://user-images.githubusercontent.com/101215803/193476762-c0e7c615-25bc-4da1-8626-9b0e4642285b.png)
 
 
 
